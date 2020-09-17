@@ -1,0 +1,260 @@
+body
+{
+	margin: 0;
+}	
+.header
+{
+	width:80%;
+	margin: 0 auto;
+	
+
+}
+
+.brand
+{
+	text-decoration: none;
+}
+
+.img-title 
+{
+	width: 100%;
+}
+.container
+{
+	
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+	border-bottom: 7px solid #f79646
+}
+.logo
+{
+	width: 20%;
+	float: left;
+}
+.menu
+{
+	float:right;
+	
+}
+
+
+.menu
+{
+	bottom: 0;
+}
+.nav
+{
+	margin-top: 0;
+}
+.nav li
+{
+	list-style: none;
+	display: inline-block;
+}
+.nav li a
+{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+
+
+/* ------------------------- login-container ------------------------- */
+
+
+#login-container
+{
+	width:60%;
+	margin: 0 auto;
+
+}
+
+#login-text
+{
+	width: 60%;
+	margin-top: 100px;
+	padding-bottom: 10px;
+		
+}
+#login-text-wrap
+{
+	border-bottom: 2px solid #c0c0c0;
+}
+
+
+
+#login-text #login-logo
+{
+	float: left;
+	width: 5%;
+	height: 3%;
+}
+
+#login-wrap
+{
+	width: 60%;
+	margin-top: 70px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.login-box
+{
+	
+	width: 49%;
+	float: left;
+	margin-top: 30px;
+}
+.login-box form
+{
+	width: 100%;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+
+
+
+#id-box
+{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#ps-box
+{
+	position: relative;
+	overflow: hidden;
+}
+.sort
+{
+	width: 30%;
+	float: left;
+}
+.sort h3
+{
+	margin: 0;
+}
+.sort2
+{
+	float: left;
+	width: 65%;
+}
+.sort2 input
+{
+	width: 100%;
+}
+
+#login-box-wrap
+{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+#login-input-box
+{
+	width: 65%;
+	float: left;
+}
+
+.login-image
+{
+	width: 49%;
+	float: left;
+}
+
+.input-form
+{
+	padding-bottom: 10px;
+}
+
+.text-box
+{
+	width: 65%;
+	font-size: 0.9em;
+	margin: 0 auto;
+	padding: 0 0 3px 0;
+	border-radius: 6px;
+	border: 3px solid #ffc000;
+	font-weight: bold;
+}
+
+#login-button
+{
+	width: 30%;
+	padding: 25px;
+	border-radius:6px; 
+	border : 0;
+	background-color: #ffc000;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#login-main-image
+{
+	width: 100%;
+	height: 30%;
+}
+
+
+#button
+{
+	width:100%;
+
+	
+}
+#button-sub
+{
+	width: 95%;
+	margin: 0 auto;
+	
+}
+#button-sub span
+{
+	width: 30%;
+	
+	display: inline-block;
+	text-align: center;
+	
+}
+
+#button-sub span a
+{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #ffc000;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 6px;
+	color: black;
+}
+#button1 a
+{
+	background-color:#ffc000;
+	font-weight: bold;
+}
+#button2 a
+{
+	background-color: white;
+	color: #595959;
+
+}
+#button3 a
+{
+	background-color: white;
+	color: #595959;
+}
+
+
+

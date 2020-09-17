@@ -1,0 +1,129 @@
+body
+{
+	margin:0;
+}
+
+
+#header
+{
+	width: 80%;
+	margin: 0 auto;
+	
+	margin-bottom: 30px;
+
+}
+
+#logo
+{
+	width: 25%;
+	margin: 0 auto;
+	
+}
+.brand
+{
+	text-decoration: none;
+	width: 100%;
+}
+#logoimage
+{
+	width: 100%;
+}
+
+
+#content
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+#content-text
+{
+	width: 100%;
+}
+
+#top-rap
+{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#top-text
+{
+	float: left;
+	font-size: 3em;
+	text-shadow:3px 3px 5px #f83;
+	color: #f79646;
+	font-weight: bold;
+
+}
+#top-button
+{
+	float: right;
+	margin-top: 10px;
+
+	
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	
+}
+
+#delete-button
+{
+	padding: 0 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: red;
+}
+#rollback-button
+{
+	padding: 0 10px;
+
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #7f7f7f;
+
+}
+
+#container
+{
+	width: 100%;
+}
+#container-table
+{
+	width: 100%;
+}
+td
+{
+	text-align: center;
+}
+.col
+{
+	background-color: #e46c0a;
+}
+
+.col td
+{
+	color: white;
+	
+}
+}
+.col td:nth-child(0)
+{
+	width: 2%;
+}
+.col td:nth-child(1)
+{
+	width: 5%;
+}
+.col td:nth-child(2)
+{
+	width: 5%;
+	
+}
+
+

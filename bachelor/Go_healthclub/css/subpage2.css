@@ -1,0 +1,31 @@
+#container-bottom
+{
+	overflow: hidden;
+}
+#top-right
+{
+	overflow: hidden;
+}
+#image_table
+{
+	width: 100%;
+}
+#image_table2
+{
+	position: relative;
+}
+#content-text
+{
+	width: 100%;
+	
+}
+
+@media screen and(max-width: 410px){
+
+#content-text
+{
+	
+	height: 100px;
+}	
+
+}

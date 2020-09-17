@@ -1,0 +1,44 @@
+@media screen and (max-width: 850px){
+#container-menu
+{
+	width: 100%;
+	margin: 0;
+}
+#container-main
+{
+	width: 100%;
+	margin: 0;
+}
+#top-text
+{
+	margin-top: 40px;
+}
+}
+
+@media screen and (max-width: 700px){
+.con-sub
+{
+	margin-bottom:200px;
+}
+
+.col
+{
+	font-size: 1em;
+}
+.col-sub
+{
+	font-size:0.8em;
+}
+}
+
+@media screen and (max-width: 450px){
+.col
+{
+	font-size: 0.7em;
+}
+.col-sub
+{
+	font-size: 0.65em;
+	
+}
+}

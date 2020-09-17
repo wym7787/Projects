@@ -1,0 +1,112 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>약 빤 프로그램</title>
+	<link href="css/pinput.css" rel="stylesheet">
+</head>
+<body>
+<div class = "header">
+	<div class = "top">
+		<div class ="main">
+			<a href="index.html"><img class = "mainlogo" src="img/main.jpg"/></a>
+		</div>
+	</div>
+</div>
+
+<div class ="container">
+	<div class ="top-content">
+		<div class ="toprap">
+			<div class ="topsort">
+				<div class ="toplogo"><img class = "topimage" src="img/h1.png"/></div>
+				<div class ="toptext"><h4>환자 정보 입력</h4></div>
+			</div>	
+		</div>
+	</div>
+
+<form method = "post" action = "pinput.jsp">
+<div id="sign-container">
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>환자번호</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "name-text"class = "text-box" type = "text" name = "pnumber">
+				</div>
+			</div>
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>이름</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "name-text"class = "text-box" type = "text" name = "name">
+				</div>
+			</div>
+			
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>주민번호</h3>
+				</div>
+				<input class ="jumin-box"  type = "text" name = "jumin1">
+				<h3>-</h3>
+				<input class ="jumin-box"  type = "text" name = "jumin2">
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>핸드폰 번호</h3>
+				</div>
+				<input class ="phone-box"  type = "text" name = "phone1">
+				<h3>-</h3>
+				<input class ="phone-box"  type = "text" name = "phone2">
+				<h3>-</h3>
+				<input class ="phone-box"  type = "text" name = "phone3">
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>키</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "name-text"class = "text-box" type = "text" name = "height">
+				<h3>Cm</h3>
+				</div>
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>체중</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "name-text"class = "text-box" type = "text" name = "weight">
+				<h3>Kg</h3>
+				</div>
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>혈액형</h3>
+				</div>
+					<div class = "sort3">
+						<input class = "receive" type = "radio"  name = "receive" value ="A형">A형
+						<input class = "receive" type = "radio"  name = "receive" value ="B형">B형
+						<input class = "receive" type = "radio"  name = "receive" value ="O형">O형
+						<input class = "receive" type = "radio"  name = "receive" value ="AB형">AB형
+					</div>
+				
+			</div>
+
+
+</div>
+			
+	
+	<div id = "hr"></div>
+			<div id="button">
+					<input id = "button-sub" type = "submit" value = "입력">
+					<a class = "button" href="index.html">취소</a>
+			</div>
+</form>
+
+</div>
+</body>
+</html>

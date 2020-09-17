@@ -1,0 +1,322 @@
+body
+{
+	margin: 0;
+}
+.header
+{
+	width: 100%;
+}
+
+.top
+{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #c0c0c0;
+}
+.main
+{
+	width: 60%;
+	margin: 0 auto;
+}
+.main a 
+{
+	width: 100%;
+}
+.mainlogo
+{
+	width: 100%;
+}
+
+
+
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.top-content
+{
+	width: 100%;
+}
+.toprap
+{
+	width: 60%;
+	margin: 0 auto;
+	
+}
+.topsort
+{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-left: 230px;
+	
+}
+.toplogo
+{
+	float: left;
+	width: 15%;
+	text-align: right;
+
+}
+
+.topimage
+{
+	width: 45px;
+	height: 45px;
+}
+.toptext
+{
+	float: left;
+
+}
+.toptext h4
+{
+	margin-bottom: 0;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+/* signup-container */
+#sign-container
+{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-left: 130px;
+	text-align: center;
+	margin-bottom : 20px;
+
+}
+.sign-nav
+{
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.sign-nav h3
+{
+	margin: 0;
+}
+.sort
+{
+	float: left;
+	width: 18%;
+	text-align: right;
+}
+.sort2
+{
+	float: left;
+	width: 79%;
+	position: relative;
+	overflow: hidden;
+}
+#sign-container h3
+{
+	font-size: 1em;
+	display: inline-block;
+}
+.text-box
+{
+	padding: 0px 1px 1px 1px;
+	width: 20%;
+	border-radius: 6px;
+	border: 2px solid #1097e6;
+	font-size: 1em;
+	font-weight: bold;
+}
+.button
+{
+	border: 0;
+	padding: 3px 10px;
+	border: 1px solid #1097e6;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 6px;
+	color: white;
+	font-size: 0.8em;
+	background-color: #1097e6;
+	font-weight: bold;
+	cursor: pointer;
+}
+#container-table
+{
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+
+}
+#container-table2
+{
+	width: 50%;
+	float: right;
+	margin-bottom: 10px;
+}
+td
+{
+	text-align: center;
+}
+.col
+{
+	background-color: #1097e6;
+}
+.col th
+{
+	color: white;
+	height: 30;
+}
+.col-sub td:nth-child(1)
+{
+	width: 60%;
+	background-color: #adcbe3;
+	font-size: 0.9em;
+
+}
+.col-sub td:nth-child(2)
+{
+	background-color: #ccebfb;
+	font-size: 0.85em;
+}
+
+.folder
+{
+	font-size: 3em;
+	font-weight: bold;
+	padding-left: 130px;
+	color: #ffb6c1;
+	text-decoration: none;
+	cursor:pointer;
+}
+.fold
+{
+	display: none;
+}
+
+.midrap
+{
+	font-size: 0.9em;
+}
+.midrap tr
+{
+	font-size: 0.8em;
+	background-color: #fff4e6;
+}
+.midsoft
+{
+	margin-left: 50px; 
+}
+
+#price
+{
+	padding: 2px 5px 5px 2px;
+	width: 50%;
+	border-radius: 6px;
+	border: 3px solid #ffbfd3;
+	font-size: 1em;
+	font-weight: bold;
+	margin-left: 10px;
+}
+#button-sub
+{
+	padding: 7px 12px;
+	border: 1px solid #fb9f9f;
+	text-decoration: none;
+	border-radius: 6px;
+    border-bottom: 2px solid #c0c0c0;
+	color: white;
+	font-size: 0.8em;
+	background-color: #fb9f9f;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 20px;
+}
+#button-reset
+{
+    padding: 7px 12px;
+	border: 1px solid #fb9f9f;
+	text-decoration: none;
+	border-radius: 6px;
+    border-bottom: 2px solid #c0c0c0;
+	color: white;
+	font-size: 0.8em;
+	background-color: #fb9f9f;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 20px;
+}
+
+
+
+.tablerap
+{
+	width: 100%;
+	overflow: hidden;
+}
+#container-table tr td:nth-child(1)
+{
+	font-size: 1.2em;
+}
+#container-table tr td:nth-child(2)
+{
+	font-size: 1.2em;
+	
+}
+#container-table2 tr td input:nth-child(2)
+{
+	
+	font-weight:bold;
+}
+#container-table2 tr td:nth-child(1)
+{
+	font-weight:bold;
+}
+
+#price
+{
+	text-align:right;
+}
+.button-last
+{
+	margin-right: 20px;
+	margin-left: 10px;
+	padding: 10px 30px;
+	border: 1px solid #1097e6;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 6px;
+	color: white;
+	font-size: 0.8em;
+	background-color: #1097e6;
+	font-weight: bold;
+	cursor: pointer;
+}
+#button-sort
+{
+	text-align:center;
+}
+
+
+
+.bottom
+{
+	width:60%;
+	margin : 0 auto;
+	padding-left : 200px;
+	margin-bottom:30px;
+}

@@ -1,0 +1,90 @@
+body
+{
+	margin: 0;
+}
+.header
+{
+	width: 100%;
+}
+
+.top
+{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #c0c0c0;
+}
+.main
+{
+	width: 60%;
+	margin: 0 auto;
+}
+.main a 
+{
+	width: 100%;
+}
+.mainlogo
+{
+	width: 100%;
+}
+
+
+
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.top-content
+{
+	width: 100%;
+}
+.toprap
+{
+	width: 60%;
+	
+	
+}
+.topsort
+{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+	
+	
+}
+.toplogo
+{
+	float: left;
+	width: 10%;
+	text-align: right;
+
+}
+
+.topimage
+{
+	width: 45px;
+	height: 45px;
+}
+.toptext
+{
+	float: left;
+
+}
+.toptext h4
+{
+	margin-bottom: 0;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+
+
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+}

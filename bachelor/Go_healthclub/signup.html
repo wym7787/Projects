@@ -1,0 +1,111 @@
+<<html>
+<head>
+	<meta charset="utf-8">
+	<title>Health Club</title>
+	<link href="css/signup.css" rel="stylesheet">
+	<link href="css/resignup.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!-- header -->
+<div class = "header">
+	<div class ="container">
+		<div class ="logo">
+			<a class="brand" href="index.jsp">
+                <img id="logoimage" src="imgs/logo.png"/>
+            </a>
+		</div>
+		<div class ="menu">
+           	<ul class = "nav">
+            	<li><a href ="login.html">로그인</a></li>
+            	<li><a href ="signup.html">회원가입</a></li>
+            	<li><a href ="#">마이페이지</a></li>
+            </ul>
+        </div>
+	</div>
+	
+</div>
+<!-- header-end -->
+
+<!-- signup-box -->
+<div id ="login-container">
+	<div id = "login-text-wrap">
+		<div id = "login-text">
+			<img id ="login-logo" src="imgs/login-logo.png"/> 
+			<h3>&nbsp회원가입</h3>
+		</div>
+	</div>
+	<form method = "post" action = "signup.jsp">
+	<div id="sign-container">
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>이름</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "name-text"class = "text-box" type = "text" name = "name">
+				</div>
+			</div>
+			
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>아이디</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "id-text" class = "text-box" type = "text" name = "id">
+				<h4 id = "con-text">&nbsp&nbsp&nbsp&nbsp(영소문자나 숫자로 5문자 이상 10자리 이하)
+				</div>
+			</div>
+			
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>비밀번호</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "ps-text" class = "text-box" type = "password" name = "ps">
+				<h4 id = "con-text">&nbsp&nbsp&nbsp&nbsp(영문, 숫자, 특수문자를 포함한 10자리 이하)
+				</div>
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>비밀번호 확인</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "psc-text" class = "text-box" type = "password" name = "pscon">
+				</div>
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>닉네임</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "nick-text" class = "text-box" type = "text" name = "nicname">
+				</div>
+			</div>
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>이메일</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "email-text" class = "text-box" type = "text" name = "email">
+				<h3>@</h3>
+				<input id = "email-text-sub" class = "text-box" type = "text" name = "email2">
+
+					<div class = "sort3">
+						<input class = "receive" type = "radio"  name = "receive" value ="수신">수신
+						<input class = "receive" type = "radio"  name = "receive" value ="수신거부">수신거부
+					</div>
+				</div>
+			</div>
+			
+	</div>
+	<div id = "hr">
+	</div>
+			<div id="button">
+					<input id = "button-sub" type = "submit" value = "회원가입">
+					<input id = "button-reset" type = "button" onclick = "history.back();" value = "회원취소">
+			</div>
+	</form>
+</div>
+

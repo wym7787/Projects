@@ -1,0 +1,70 @@
+input.search-query {
+     padding-left:26px;
+ }
+form.form-search {
+    position: relative;
+}
+form.form-search:before {
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+}
+
+.search{
+    width: 300px;
+    padding-top: 20px;
+}
+#topNav{
+    float: right;
+    top: 10px;
+    font-size: 22px;
+}
+.lipadding{
+    width: 1100px;
+}
+.lipadding>li{
+    padding-right: 4.5%;
+    padding-left: 4.5%;
+}
+
+#cm-underline{
+    border-bottom: solid #F79646;
+}
+
+a{
+    color: black;
+}
+a:hover {
+    background-color: white !important;
+}
+
+#weekBest{
+    color: #ffffff;
+    background-color: #F79646;
+    float: left;
+    font-size: 120%;
+}
+.weekBestGym{
+    float: right;
+    font-size: 120%;
+}
+
+
+
+/*
+.starRating{
+    float: left;
+}
+.grade {
+    float: right;
+}
+
+*/

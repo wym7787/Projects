@@ -1,0 +1,19 @@
+@media screen and (max-width: 980px){
+#mypage-logo
+{
+	width: 100%;
+}
+}
+
+
+@media screen and (max-width: 435px){
+#mypage-sub h3
+{
+	font-size: 0.8em;
+	padding-left: 7px;
+}
+.menu
+{
+	display: inline-block;
+}
+}

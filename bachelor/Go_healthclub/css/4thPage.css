@@ -1,0 +1,148 @@
+/*#top, #middle, #bottom
+{
+	border : 2px solid black;
+}*/
+body
+{
+	/*width : 1200px;*/
+    /*margin : 0 auto;*/
+}
+img
+{
+	max-width : 100%;
+	max-height : 100%;
+}
+#title_image
+{
+	width : 150px;
+}
+#top
+{
+	height : 100px;
+}
+#middle h1
+{
+	color : #F83;
+	margin : 0 0 18px 10px;
+	text-shadow : 3px 3px 5px #f83;
+}
+#market
+{
+	margin-left : 5px;
+	border-top : 5px solid #888;
+	border-bottom : 1px solid #888;
+	width : 130px;
+}
+#market th, #market td
+{
+	padding-bottom : 10px;
+}
+#market tr
+{
+	text-align : center;
+}
+#middle
+{
+	width : 150px;
+	float : left;
+}
+#bottom
+{
+	/*width : 1030px;*/
+	margin-left : 170px;
+}
+#bottom1 h4, #bottom1 h5
+{
+	display : inline;
+}
+#bottom1 h5
+{
+	color : #888;
+}
+#bottom2 a
+{
+	color : white;
+	text-decoration : none;
+}
+#bottom2
+{
+	width : 80px;
+	height : 30px;
+	line-height : 30px ;
+	background-color : #F83;
+	margin-left : 890px;
+	text-align : center;
+	margin-bottom : 10px;
+}
+#bottom3
+{
+	border-top : 1px solid #F83;
+	border-bottom : 1px solid #F83;
+	margin-bottom : 20px;
+
+}
+#bottom3 tr
+{
+	text-align : center;
+	color : #f83;
+}
+#bottom3 td:nth-child(1)
+{
+	width : 100px;
+	padding-right : 20px;
+}
+#bottom3 td:nth-child(3)
+{
+	width : 840px;
+}
+#bottom3 td:nth-child(5)
+{
+	width : 200px;
+}
+#bottom3 td:nth-child(7)
+{
+	width : 220px;
+}
+#bottom3 td:nth-child(9)
+{
+	width : 80px;
+}
+
+/*여기는 두번쨰 테이블*/
+
+#bottom4 tr
+{
+	height : 35px;
+}
+
+#bottom4 td:nth-child(1)
+{
+	width : 100px;
+	text-align : center;
+	padding-right : 20px;
+	color : #f83;
+}
+#bottom4 td:nth-child(3)
+{
+	width : 850px;
+}
+#bottom4 td:nth-child(5)
+{
+	width : 200px;
+	text-align : center;
+	color : #f83;
+}
+#bottom4 td:nth-child(7)
+{
+	width : 220px;
+	text-align : center;
+}
+#bottom4 td:nth-child(9)
+{
+	width : 80px;
+	text-align : center;
+}
+.bottom4_tr > td
+{
+	border-bottom : 1px solid #F83;
+}

@@ -1,0 +1,92 @@
+/*#top, #middle , #bottom , .trainer
+{
+	border : 2px solid black;
+}*/
+body
+{
+	/*width : 1200px;*/
+	/*margin : 0 auto;*/
+}
+
+#title_image
+{
+	width : 150px;
+}
+img
+{
+	/*max-width : 100%;*/
+	/*max-height : 100%;*/
+}
+#top
+{
+	height : 30px;
+
+}
+
+#middle
+{
+    width: 366px;
+    margin: 0 auto;
+}
+#middle h1
+{
+	color : #f83;
+	margin : 0 0 30px 0;
+}
+
+#bottom
+{
+	width : 980px;
+	height : 560px;
+	margin : 0 auto;
+}
+.trainer
+{
+	width : calc(50% - 5px);
+	height : 280px;
+	float : left;
+}
+.image_trainer img
+{
+	width : 150px;
+	height : 230px;
+}
+.image_trainer
+{
+	float:left;
+}
+.image_trainer p
+{
+	margin : 0px 0 0 10px;
+}
+h3, h5
+{
+	/*margin : 0px 0px 0px 160px;*/
+}
+h3
+{
+	color : #444;
+	text-shadow : 2px 2px 2px #444;
+	margin-bottom : 5px;
+}
+h4
+{
+	color : #444;
+	text-shadow :1px 1px 2px #444;
+	/*margin : 0px 0px 8px 165px;*/
+}
+h5
+{
+	padding-bottom : 2px;
+}
+#image_info2 h5
+{
+	padding-bottom : 13px;
+}
+
+.image_trainer h5
+{
+	margin : 0 0 0 10px;
+	color : #444;
+	text-shadow : 1px 1px 1px #444;
+}

@@ -1,0 +1,110 @@
+ h1, h2, h3, ul, li
+{
+	margin : 0;
+	padding : 0;
+}
+body
+{
+	/*width : 1020px;*/
+	/*margin : 0 auto;*/
+}
+#base
+{
+	width : 980px;
+	height : 330px;
+	margin : 0 auto;
+	margin-left : 70px;
+}
+#image_name
+{
+	width : 240px;
+	position : absolute;
+}
+img
+{
+	max-width : 100%;
+	max-height : 100%;
+}
+
+#gym_title
+{
+	/*top : 50px;*/
+	/*margin-top : 70px;*/
+	margin-left : 66px;
+	/*color : #f83;*/
+	/*position : absolute;*/
+	/*margin-left : 70px;*/
+}
+/*#top > div*/
+/*{																											*/
+	/*height : 160px;*/
+/*}*/
+ #top{
+     height: 65px;
+ }
+#image_medal
+{
+    position: relative;
+    left: 85%;
+    width: 177px;
+    top: -80px;
+}
+#image_ssfit
+{
+	width : 470px;
+	float :left;
+}
+#image_table
+{
+	margin-left : 480px;
+	border-top : 1px solid #f83;
+	/*border-bottom : 1px solid #f83;*/
+	width : 330px;
+	height : 236px;
+}
+#image_table2
+{
+	margin-left : 480px;
+}
+#image_table2 th
+{
+    color: #FFF;
+    background-color: #F83;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+}
+#image_table2 td
+{
+	color : #f83;
+	background-color : #FDa;
+	text-align : center;
+	font-weight : bold;
+	font-size : 2em;
+	text-shadow : 0px -1px 1px #F83;
+	line-height : 41px;
+}
+
+#last
+{
+	width : 1100px;
+	margin : 0 auto;
+	height : 150px;
+}
+#bottom
+{
+	margin-left : 50px;
+	/*width : 980px;*/
+}
+
+.img1
+{
+    width: calc(23% - 4px);
+    float: left;
+	margin-right : 10px;
+}
+.img1 p
+{
+	text-align : center;
+	margin : 0;
+}

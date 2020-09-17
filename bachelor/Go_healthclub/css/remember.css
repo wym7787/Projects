@@ -1,0 +1,32 @@
+@media screen and (max-width: 1100px){
+#content
+{
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 730px){
+	#top-text
+	{
+		font-size: 2em;
+		text-align: center;
+	}
+	.col
+	{
+		font-size: 0.8em
+	}
+	.col-sub
+	{
+		font-size: 0.5em
+	}
+}
+@media screen and (max-width: 475px){
+	.col
+	{
+		font-size: 0.5em;
+	}
+	.col-sub
+	{
+		font-size: 0.5em;
+	}
+}

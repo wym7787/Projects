@@ -1,0 +1,250 @@
+body
+{
+	margin: 0;
+}
+
+#header
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header-row
+{
+	width: 100%;
+	
+}
+.menu
+{
+	text-align: right;
+}
+
+.nav-menu
+{
+	margin-top: 10px;
+}
+.nav-menu li
+{
+	list-style: none;
+	display: inline-block;
+}
+.nav-menu li a
+{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+.nav-menu li a:hover
+{
+	color: blue;
+}
+.logo
+{
+	position: relative;
+	overflow: hidden;
+
+}
+#logo-img
+{
+	width: 25%;
+	float: left;
+}
+.brand
+{
+	width: 100%;
+	text-decoration: none;
+	
+}
+
+.img-title
+{
+	width: 100%;
+}
+
+#search-box
+{
+	float: left;
+	position:absolute;
+	width: 70%;
+	left: 35%;
+	bottom: 8%;
+}
+#search-text input
+{
+	width: 45%;
+	font-size: 1em;
+	border: 5px solid #f79646;
+}
+#search-button input
+{
+	padding: 11px 20px 11px 20px;
+	
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	background-color: #f79646;
+	border : 0;
+}
+
+/* content */
+
+#content
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+#content-row
+{
+	width: 100%;
+	border-bottom: 5px solid #f79646;
+	margin-bottom: 50px;
+
+}
+
+#content-menu li
+{
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	text-align: center;
+}
+#content-menu li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3em;
+}
+#content-menu li a:hover
+{
+	color: blue;
+
+}
+
+
+#container
+{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#container-menu
+{
+	width: 20%;
+	float: left;
+	margin-right: 15px;
+}
+
+
+#menu-text
+{
+	text-align: center;
+	font-size: 3em;
+	color: #f79646;
+	font-weight: bold;
+	text-shadow:3px 3px 5px #f83;
+	border-bottom: 4px solid #a6a6a6;
+	padding-bottom: 20px;
+}
+
+#menu-rap
+{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #a6a6a6;
+}
+
+.sub-menu
+{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.sub-menu a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+
+#free
+{
+	font-weight: bold;
+}
+
+#container-main
+{
+	width: 77.77777%;
+	float: left;
+	
+}
+
+#main-top
+{
+	
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#top-text
+{
+	float: left;
+}
+
+#top-button
+{
+	float: right;
+	margin-top: 40px;
+}
+#top-button a
+{
+	padding: 0 20px;
+	font-size: 1.2em;
+	text-decoration: none;
+	background-color: #f79646;
+	color: white;
+}
+
+#container-table
+{
+	width: 100%;
+}
+.col
+{
+
+}
+.col td
+{
+	text-align: center;
+	color:#f79646;
+	border-top: 1px solid #f79646;
+	border-bottom: 1px solid #f79646
+}
+.col td:nth-child(1)
+{
+	width: 7%;
+	
+}
+
+
+
+.col-sub td:nth-child(1)
+{
+	text-align: center;
+}
+.col-sub td:nth-child(n+3)
+{
+	text-align: center;
+}
+
+.col-sub td:nth-child(2)
+{
+	padding-left: 5px;
+}
+
+
+

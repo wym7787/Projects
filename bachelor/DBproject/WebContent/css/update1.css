@@ -1,0 +1,194 @@
+body
+{
+	margin:0;
+}
+
+
+
+.header
+{
+	width: 50%;
+	margin: 0 auto;
+
+}
+.toprap
+{
+	width: 100%;
+	text-align: center;
+}
+.topsort
+{
+	
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+.toplogo
+{
+	float: left;
+	width: 30%;
+	text-align: right;
+
+}
+
+.topimage
+{
+	width: 40px;
+	height: 50px;
+}
+.toptext
+{
+	float: left;
+	padding-left: 10px;
+
+
+}
+.toptext h4
+{
+	font-size: 1em;
+}
+
+
+
+
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-top: 2px solid #c0c0c0;
+}
+
+
+/* signup-container */
+#sign-container
+{
+	width: 100%;
+	
+	margin-top: 15px;
+
+}
+.sign-nav
+{
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.sign-nav h3
+{
+	margin: 0;
+
+}
+.sort
+{
+	float: left;
+	width: 23%;
+}
+.sort2
+{
+	float: left;
+	width: 50%;
+	position: relative;
+	overflow: hidden;
+}
+.sort2 h4
+{
+	margin: 0;
+	display: inline-block;
+
+}
+.sort3
+{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}
+#sign-container h3
+{
+	font-size: 0.8em;
+	display: inline-block;
+}
+.text-box
+{
+	padding: 0px 1px 1px 1px;
+	width: 50%;
+	border-radius: 6px;
+	border: 2px solid #1097e6;
+	font-size: 1em;
+	font-weight: bold;
+}
+.jumin-box
+{
+	padding: 0px 1px 1px 1px;
+	width: 25%;
+	border-radius: 6px;
+	border: 2px solid #1097e6;
+	font-size: 1em;
+	font-weight: bold;
+}
+.phone-box
+{
+	padding: 0px 1px 1px 1px;
+	width: 15%;
+	border-radius: 6px;
+	border: 2px solid #1097e6;
+	font-size: 1em;
+	font-weight: bold;
+}
+#button
+{
+	margin-top: 40px;
+	text-align: center;
+
+}
+#button input
+{
+	margin-right: 20px;
+	margin-left: 10px;
+	padding: 10px 30px;
+	border: 1px solid #1097e6;
+	
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 6px;
+	color: white;
+	font-size: 0.8em;
+}
+
+#hr
+{
+	margin-top: 20px;
+	border-bottom: 2px solid #c0c0c0;
+
+}
+
+#button-sub
+{
+	background-color: #1097e6;
+	font-weight: bold;
+	cursor: pointer;
+}
+#button-reset
+{
+	background-color: #1097e6;
+	cursor: pointer;
+}
+
+.button
+{
+	margin-right: 20px;
+	margin-left: 10px;
+	padding: 10px 30px;
+	border: 1px solid #1097e6;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 6px;
+	color: white;
+	font-size: 0.8em;
+	background-color: #1097e6;
+	font-weight: bold;
+	cursor: pointer;
+}

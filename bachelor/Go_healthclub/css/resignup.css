@@ -1,0 +1,113 @@
+@media screen and (max-width: 1455px){
+.header
+{
+	width: 100%;
+}
+
+#login-container
+{
+	width: 60%;
+	margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1330px){
+#login-container
+{
+	width: 65%;
+	margin: 0 auto;
+}
+}
+@media screen and (max-width: 1230px){
+#login-container
+{
+	width: 75%;
+	margin: 0 auto;
+}
+}
+@media screen and (max-width: 1060px){
+#login-container
+{
+	width: 80%;
+	margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 990px){
+#login-container
+{
+	width: 85%;
+	margin: 0 auto;
+}
+}
+
+
+@media screen and (max-width: 980px){
+#login-container
+{
+	width: 100%;
+}
+#sign-container
+{
+	width: 100%;
+	margin: 0;
+}
+.sign-nav
+{
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 720px){
+#sign-container
+{
+	font-size: 0.8em;
+}
+
+.header
+{
+	height: 8%;
+}
+.logo
+{
+	width: 20%;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+.logo
+{
+	width: 20%;
+	
+}
+
+#sign-container h3
+{
+	font-size: 0.7em;
+}
+#sign-container h4
+{
+	font-size: 0.5em;
+}
+.container
+{
+	text-align: right;
+}
+.sort2
+{
+	font-size: 0.8em;
+	position: relative;
+}
+
+.menu
+{
+	padding-top: 5px;
+}
+.nav li a
+{
+	margin-left: 0;
+}
+}

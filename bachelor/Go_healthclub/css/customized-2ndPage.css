@@ -1,0 +1,75 @@
+form.form-search {
+    position: relative;
+}
+form.form-search:before {
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+}
+
+a{
+    color: black;
+}
+#topNav{
+    float: right;
+    top: 10px;
+    font-size: 22px;
+}
+
+.search{
+    width: 300px;
+    padding-top: 20px;
+}
+
+
+#title{
+    margin: auto;
+    font-size: 170%;
+    padding: 10px;
+    text-align: center;
+    color: #F79646;
+    font-weight: bold;
+}
+.weekBest{
+    color: #ffffff;
+    background-color: #F79646;
+    float: left;
+    font-size: 120%;
+}
+.weekBestGym{
+    float: right;
+    font-size: 120%;
+}
+.underline {
+    border-bottom: 1px solid #F79646;
+}
+.grade{
+    padding-right: 10px;
+}
+.stars{
+    padding: 5px;
+}
+.star{
+    padding: 2px;
+}
+.operatingHour{
+    padding-top: 10px;
+}
+.goldMedalPosition{
+    position: absolute;
+    right: 28px;
+    top: 277px;
+    float: right;
+}
+.goldMedal{
+    width: 70px;
+    height: 70px;
+}

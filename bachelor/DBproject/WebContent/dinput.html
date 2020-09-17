@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>약 빤 프로그램</title>
+	<link href="css/dinput.css" rel="stylesheet">
+</head>
+<body>
+<div class = "header">
+	<div class = "top">
+		<div class ="main">
+			<a href="index.html"><img class = "mainlogo" src="img/main.jpg"/></a>
+		</div>
+	</div>
+</div>
+
+<div class ="container">
+	<div class ="top-content">
+		<div class ="toprap">
+			<div class ="topsort">
+				<div class ="toplogo"><img class = "topimage" src="img/h1.png"/></div>
+				<div class ="toptext"><h4>의사/간호사입력</h4></div>
+			</div>	
+		</div>
+	</div>
+
+<form method = "post" action = "dinput.jsp">
+<div id="sign-container">
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>이름</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "name-text"class = "text-box" type = "text" name = "name">
+				</div>
+			</div>
+			
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>직업</h3>
+				</div>
+					<div class = "sort3">
+						<input class = "receive" type = "radio"  name = "job" value ="의사">의사
+						<input class = "receive" type = "radio"  name = "job" value ="간호사">간호사
+						
+					</div>
+				
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>진료과</h3>
+				</div>
+					<div class = "sort3">
+						<input class = "receive" type = "radio"  name = "receive" value ="내과">내과
+						<input class = "receive" type = "radio"  name = "receive" value ="정형외과">정형외과
+						<input class = "receive" type = "radio"  name = "receive" value ="치과">치과
+						<input class = "receive" type = "radio"  name = "receive" value ="이비인후과">이비인후과
+						<input class = "receive" type = "radio"  name = "receive" value ="안과">안과
+					</div>
+				
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>자격증취득일</h3>
+				</div>
+				<div class = "sort2">
+				<input class ="phone-box"  type = "text" name = "year">
+				<h3>년</h3>
+				<input class ="phone-box"  type = "text" name = "month">
+				<h3>월</h3>
+				<input class ="phone-box"  type = "text" name = "day">
+				<h3>일</h3>
+				</div>
+			</div>
+
+			<div class ="sign-nav">
+				<div class = "sort">
+				<h3>자격증등록번호</h3>
+				</div>
+				<div class = "sort2">
+				<input id = "i-text"class = "text-box" type = "text" name = "certinum">
+				<h3>(의사는 1, 간호사 2로 시작 4자리)</h3>
+				</div>
+			</div>
+
+			
+
+
+</div>
+			
+	
+	<div id = "hr"></div>
+			<div id="button">
+					<input id = "button-sub" type = "submit" value = "입력">
+					<a class = "button" href="index.html">취소</a>
+			</div>
+</form>
+
+</div>
+</body>
+</html>

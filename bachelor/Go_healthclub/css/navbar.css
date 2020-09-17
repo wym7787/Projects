@@ -1,0 +1,35 @@
+.search{
+    width: 300px;
+    padding-top: 20px;
+}
+#topNav{
+    float: right;
+    top: 10px;
+    font-size: 22px;
+}
+.lipadding{
+    width: 1100px;
+}
+.lipadding>li{
+    padding-right: 4.5%;
+    padding-left: 4.5%;
+}
+#cm-underline{
+    border-bottom: solid #F79646;
+}
+a{
+    color: black;
+}
+a:hover {
+    background-color: white !important;
+}
+#topNav>ul>li>a:hover {
+    /*background-color: #F5F5F5 !important;*/
+}
+#logo{
+    height: 75px;
+}
+#btnSearch{
+    background-color: #F79646 !important;
+    border: solid #F79646 1px !important;
+}
