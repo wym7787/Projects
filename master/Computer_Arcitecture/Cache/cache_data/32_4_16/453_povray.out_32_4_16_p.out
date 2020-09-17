@@ -1,0 +1,14 @@
+-- General Stats --
+Capacity : 32
+Way : 4
+Block size: 16
+Total accesses : 20000001
+Read accesses : 13743231
+Write accesses : 6256770
+Read misses : 163230
+Write misses : 30557
+Read miss rate : 1.187712
+Write miss rate : 0.488383
+Clean evictions : 152174
+Dirty evictions : 40361
+Checksum : 0x10a926
