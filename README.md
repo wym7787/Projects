@@ -7,7 +7,7 @@ Master's Projects
   - Channel, Way, Associativity에 따라 Cache hit ratio와 miss ratio를 SPEC CPU benchmark trace들을 활용하여 캐시 성능을 측정하기 위한 Cache simulation 과제
     LRU 캐시 알고리즘과 PSEUDO LRU 알고리즘에 따라 성능 비교 평가도 수행
   
-* Out_Of_Order
+* Out Of Order
   - Cache Instruction 진행 순서를 바꿔 캐시 성능을 향상 시키는 Out_Of_Order 알고리즘 Simulator 구현 과제
 
 2. Operating System
