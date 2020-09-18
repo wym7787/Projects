@@ -8,7 +8,7 @@ Master's Projects
     LRU 캐시 알고리즘과 PSEUDO LRU 알고리즘에 따라 성능 비교 평가도 수행
   
 * Out Of Order
-  - Cache Instruction 진행 순서를 바꿔 캐시 성능을 향상 시키는 Out_Of_Order 알고리즘 Simulator 구현 과제
+  - Cache Instruction 진행 순서를 바꿔 캐시 성능을 향상 시키는 Out Of Order 알고리즘 Simulator 구현 과제
 
 2. System Programming
 * Kernel
