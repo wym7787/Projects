@@ -10,7 +10,7 @@ Master's Projects
 * Out Of Order
   - Cache Instruction 진행 순서를 바꿔 캐시 성능을 향상 시키는 Out_Of_Order 알고리즘 Simulator 구현 과제
 
-2. Operating System
+2. System Programming
 * Kernel
   - Kernel에서 지원하는 LZ4 Compression 알고리즘을 활용하여 원본 데이터를 약 17% ~ 20% 정도 감소 시키고, 2배의 성능 개선을 이룬 Device Driver Module 과제
 
